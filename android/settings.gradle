@@ -1,0 +1,9 @@
+rootProject.name = 'KhoanhKhac'
+include ':react-native-image-rotate'
+project(':react-native-image-rotate').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-rotate/android')
+include ':react-native-fabric'
+project(':react-native-fabric').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fabric/android')
+include ':react-native-image-crop-picker'
+project(':react-native-image-crop-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-crop-picker/android')
+
+include ':app'
